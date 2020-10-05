@@ -1,22 +1,19 @@
 <%-- 
-    Document   : index
-    Created on : 02-oct-2020, 21:40:38
-    Author     : hp
+    Document   : productos
+    Created on : 5/10/2020, 02:47:45 PM
+    Author     : ferch
 --%>
-
 <%@page import="modelo.marcas" %>
 <%@page import="modelo.producto" %>
 <%@page import="java.util.HashMap"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="javax.swing.table.DefaultTableModel"%>
-
-
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>productos</title>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title>JSP Page</title>
     </head>
     <body>
     <h1>productos</h1>
@@ -47,7 +44,7 @@
             <input type="text" name="txt_existencial" id="txt_existencia"  class="form-control" placeholder=" existencial" required>
             <br> 
             <label for="lbl_fecha_ingreso"><b>fecha_ingreso:</b></label>
-            <input type="text" name="txt_fecha_ingregeso" id="txt_fecha_ingreso"  class="form-control" placeholder=" fecha_ingreso" required>
+            <input type="date" name="txt_fecha_ingregeso" id="txt_fecha_ingreso"  class="form-control" placeholder=" fecha_ingreso" required>
              <select name="drop_marca" id="drop_marca" class="form-control">
                  
                    
@@ -142,6 +139,4 @@
             
         </script>
     </body>
-    
 </html>
-
