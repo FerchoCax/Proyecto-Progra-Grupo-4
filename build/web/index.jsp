@@ -18,5 +18,7 @@
         <a href="productos.jsp"><button class="btn btn-primary" >Productos</button></a> 
         
         <a href="proveedores.jsp"><button class="btn btn-primary" >Proveedores</button></a>  
+        
+        <a href="empleados.jsp"><button class="btn btn-primary" >Empleados</button></a>  
     </body>
 </html>
