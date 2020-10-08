@@ -1,0 +1,12 @@
+cd url
+git version
+gt init
+git status -s
+git add .
+git status -s
+git commit -m "primer commit"
+git status -s
+git log --oneline
+git status -s
+git remote add origin https://github.com/KTOMM/asd.git
+git push -u origin main
